@@ -1,0 +1,235 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+*{
+   margin:0;
+   padding: 0; 
+   box-sizing: border-box;
+  }
+body
+{
+    font-family: 'IBM Plex Mono',monospace,arial;
+
+    background-color: rgba(205, 205, 182, 0.673);
+    line-height: 2.3rem;
+    font-size: 1.7rem;
+    padding:7px; 
+    height:200vh; 
+    position: absolute; 
+    
+}
+.space
+{
+ padding-left: 150px;
+}
+.marcus
+{
+  float: right;
+  width:40%;
+  height: auto;
+  border-radius: 10px;
+}
+header
+{
+  display: block;
+}
+.head img
+{
+  float:left;
+  width:10%;
+  height: auto;
+  mix-blend-mode: color-burn;
+  border-radius: 5px;
+}
+.head h1
+{
+  position: relative;
+  white-space:normal;
+  text-align: center;
+  font-family: "special elite";
+  top: 30px;
+  left:-20px;
+  line-height:25px;
+}
+#first
+{
+  font-weight:500;
+  color: rgb(87, 85, 85);
+}
+h1,h2
+{
+  color: rgba(29, 27, 27, 0.797);
+}
+main
+{
+  margin-top: 30px;
+  text-align: justify;
+  padding: 10px;
+}
+.m_container,.b_container
+{
+  border: 2px solid rgba(17, 17, 16, 0.673);
+  padding: 10px;
+  border-radius: 20px;
+}
+h4
+{
+  text-align: center;
+  left: -40px;
+}
+p:first-child::first-letter,.First:first-letter
+{
+  font-size: 30px;
+}
+ol
+{
+  list-style-position: inside;
+}
+.Endimage 
+{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last
+{
+  width:95%;
+  height: auto;
+  mix-blend-mode: color-burn;
+}
+h3
+{
+   text-align:  center;
+   color: rgba(29, 27, 27, 0.797);
+}
+ li::marker
+{
+  color:rgba(29, 27, 27, 0.797);
+  font-family: "special elite";
+   
+}
+.headmed
+{
+  text-align: center;
+  font-family: "special elite";
+}
+ li::before
+{
+  color: rgba(9, 9, 9, 0.755);
+  content: open-quote;
+  font-size:30px;
+  font-family: "special elite";
+}
+ li::after
+{
+  content: close-quote;
+  font-size: 30px;
+  font-family: "special elite";
+}
+#author
+{
+  font-family: "special elite";
+  text-align: right;
+  color:rgba(15, 11, 11, 0.797);
+}
+.credits p
+{
+  text-align:center;
+
+}
+.credits h4,footer h4,address h4
+{
+  text-align: left;
+  padding-left: 20px;
+  text-decoration:underline;
+}
+a:any-link
+{
+  text-decoration: none;
+  color:rgba(92, 17, 17, 0.956)
+}
+footer p
+{
+  text-align: justify;
+  font-size:1.5rem ;
+  padding: 15px;
+  line-height: 2rem;
+}
+@media only screen and (max-width:465px)
+{
+  .marcus
+  {
+    width: 100%;
+    height: auto;
+    
+  }
+  body,footer p
+  {
+   line-height :1.5rem;
+   padding:10px;
+   font-size: 1.1rem;
+  }
+  .head img
+  {
+    width:30%;
+    height: auto;
+  }
+  .head h1
+  {
+    top:10px;
+    line-height: 2.2rem;
+  }
+  .space
+  {
+    padding-left: 100px;
+  }
+  .head h1 
+  {
+    font-size: 2.5rem;
+  }
+  main
+  {
+    padding:3px;
+  }
+  li::before,li::after
+  {
+    font-size: 25px;
+  }
+  .credits p
+  {
+    padding-left: 40px;
+  }
+  
+
+} 
+
+@media only screen and (min-width:481px )and (max-width:768px)
+{
+  .marcus
+  {
+    width: 50%;
+    height:auto;
+  }
+  .head img
+  {
+    width:23%;
+    height: auto;
+  }
+ body,footer p
+ {
+   font-size: 1.6rem;
+   line-height:2.3rem;
+ }
+ .head h1
+ {
+  line-height: 2.5rem;
+ }
+ main 
+ {
+  padding: 7px;
+ }
+ 
+}
